@@ -50,3 +50,5 @@ ON funcionarios.DEPARTMENT_ID = departamentos.DEPARTMENT_ID
 --LEFT JOIN COM A TABELA JOBS
 LEFT JOIN HR.JOBS cargo     
 ON funcionarios.JOB_ID = cargo.JOB_ID
+WHERE funcionarios.SALARY > 0
+ORDER BY funcionarios.SALARY desc
