@@ -1,0 +1,17 @@
+-- Query 2 — Funcionários por Região (com localização)
+-- EMPLOYEES com LEFT JOIN em DEPARTMENTS, LOCATIONS, COUNTRIES e REGIONS.
+
+SELECT
+    EMPLOYEE_ID,
+    FIRST_NAME,
+    LAST_NAME,
+    EMAIL,
+    PHONE_NUMBER,
+    HIRE_DATE,
+    JOB_ID,
+    SALARY,
+    COMMISSION_PCT,
+    MANAGER_ID,
+    DEPARTMENT_ID
+FROM
+    HR.EMPLOYEES;
