@@ -42,6 +42,7 @@ SELECT funcionarios.EMPLOYEE_ID,
 funcionarios.FIRST_NAME,
 funcionarios.LAST_NAME,
 funcionarios.SALARY,
+cargo.JOB_TITLE,
 departamentos.DEPARTMENT_NAME
 FROM HR.EMPLOYEES funcionarios
 --LEFT JOIN COM TABELA DEPARTMENT 
