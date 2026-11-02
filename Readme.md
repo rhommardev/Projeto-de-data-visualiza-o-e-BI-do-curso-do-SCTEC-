@@ -10,11 +10,15 @@ A análise será realizada utilizando consultas SQL no banco FreeSQL e uma etapa
 
 Base de dados utilizada: https://freesql.com/
 
-RESULTADOS ESPERADOS (ENTREGA)
-O projeto deverá ser entregue com os seguintes arquivos no repositório do GitHub:
+DESAFIO:A equipe de análise foi chamada para estudar os dados de Recursos Humanos da empresa, com foco na distribuição dos funcionários, nos cargos, nos departamentos e nos salários.
 
-Os códigos das três consultas usadas;
-.CSV (query_01.csv, query_02.csv e query_03.csv), com os dados extraídos do FreeSQL;
-.PY com a(s) análise(s) em Python;
-README.md com a documentação do projeto.
-O repositório deve conter uma explicação simples do objetivo do trabalho, as etapa
+O objetivo deste projeto é identificar quais departamentos e cargos concentram os maiores salários e analisar como os funcionários estão distribuídos entre as cidades, países e regiões da empresa.
+
+Query 1 — Comparação de Salários por Departamento e Cargo
+Objetivo: identificar os salários dos funcionários, relacionando cada pessoa ao seu departamento e ao cargo ocupado. A consulta permitirá observar quais cargos e departamentos possuem os maiores salários.
+
+Query 2 — Distribuição dos Funcionários por Localidade
+Objetivo: identificar em quais cidades, países e regiões os funcionários estão alocados, relacionando os funcionários aos seus departamentos e locais de trabalho.
+
+Query 3 — Funcionários por Ano de Admissão
+Objetivo: analisar a distribuição dos funcionários por ano de admissão e comparar seus salários atuais, considerando departamentos e cargos.
