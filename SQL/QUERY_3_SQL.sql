@@ -43,7 +43,9 @@ FROM
 
 -- aplicação de LEFT JOIN 
 SELECT 
-funcionarios.EMPLOYEE_ID, 
+funcionarios.EMPLOYEE_ID,
+funcionarios.FIRST_NAME,
+funcionarios.LAST_NAME, 
 funcionarios.SALARY, 
 departamentos.DEPARTMENT_NAME,
 EXTRACT(YEAR FROM admissao.START_DATE) AS ANO_ADMISSAO, -- EXTRAINDO O ANO DA COLUNA START_DATE
