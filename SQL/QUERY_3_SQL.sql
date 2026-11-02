@@ -2,9 +2,6 @@
 
 --Query 3: funcionários por ano de admissão, com EXTRACT, WHERE e ORDER BY;
 --EMPLOYEES, DEPARTMENTS e JOBS, trazendo EMPLOYEE_ID, HIRE_DATE, ano de admissão, salário, departamento e cargo.
-
-
-
 SELECT
     EMPLOYEE_ID,
     FIRST_NAME,
@@ -50,13 +47,15 @@ funcionarios.EMPLOYEE_ID,
 funcionarios.SALARY, 
 departamentos.DEPARTMENT_NAME,
 admissao.START_DATE,
+EXTRACT(YEAR FROM admissao.START_DATE) AS ANO_ADMISSAO, -- EXTRAINDO O ANO DA COLUNA START_DATE
 cargo.JOB_TITLE
 FROM HR.EMPLOYEES funcionarios
 
---junções das tabelas hr.departmnets com
+-- junção com departamentos
 LEFT JOIN HR.DEPARTMENTS departamentos
 ON funcionarios.DEPARTMENT_ID = departamentos.DEPARTMENT_ID
 
+-- junção com histórico de cargos
 LEFT JOIN HR.JOB_HISTORY admissao
 ON  funcionarios.EMPLOYEE_ID = admissao.EMPLOYEE_ID
 
