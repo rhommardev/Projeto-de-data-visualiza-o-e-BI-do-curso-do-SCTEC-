@@ -23,14 +23,14 @@ Objetivo: identificar em quais cidades, países e regiões os funcionários est�
 
 ### Query 3 — Funcionários por Ano de Admissão
 Objetivo: analisar a distribuição dos funcionários por ano de admissão e comparar seus salários atuais, considerando departamentos e cargos.
-
+````
 ### Estrutura do projeto
 ├── data/                 # Arquivos CSV exportados das consultas SQL
 ├── images/               # Gráficos gerados no notebook
 ├── notebook/             # Notebook com a análise em Python
 ├── sql/                  # Consultas SQL usadas na extração
 └── README.md
-
+````
  ## Dados Utilizados
  Foram utilizadas tabelas do schema HR:
 
