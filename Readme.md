@@ -10,28 +10,28 @@ A análise será realizada utilizando consultas SQL no banco FreeSQL e uma etapa
 
 Base de dados utilizada: https://freesql.com/
 
-# DESAFIO:
+## DESAFIO:
 A equipe de análise foi chamada para estudar os dados de Recursos Humanos da empresa, com foco na distribuição dos funcionários, nos cargos, nos departamentos e nos salários.
 
 O objetivo deste projeto é identificar quais departamentos e cargos concentram os maiores salários e analisar como os funcionários estão distribuídos entre as cidades, países e regiões da empresa.
 
-# Query 1 — Comparação de Salários por Departamento e Cargo
+### Query 1 — Comparação de Salários por Departamento e Cargo
 Objetivo: identificar os salários dos funcionários, relacionando cada pessoa ao seu departamento e ao cargo ocupado. A consulta permitirá observar quais cargos e departamentos possuem os maiores salários.
 
-# Query 2 — Distribuição dos Funcionários por Localidade
+### Query 2 — Distribuição dos Funcionários por Localidade
 Objetivo: identificar em quais cidades, países e regiões os funcionários estão alocados, relacionando os funcionários aos seus departamentos e locais de trabalho.
 
-# Query 3 — Funcionários por Ano de Admissão
+### Query 3 — Funcionários por Ano de Admissão
 Objetivo: analisar a distribuição dos funcionários por ano de admissão e comparar seus salários atuais, considerando departamentos e cargos.
 
-# Estrutura do projeto
+### Estrutura do projeto
 ├── data/                 # Arquivos CSV exportados das consultas SQL
 ├── images/               # Gráficos gerados no notebook
 ├── notebook/             # Notebook com a análise em Python
 ├── sql/                  # Consultas SQL usadas na extração
 └── README.md
 
- # Dados Utilizados
+ ## Dados Utilizados
  Foram utilizadas tabelas do schema HR:
 
 EMPLOYEES
@@ -41,7 +41,7 @@ LOCATIONS
 COUNTRIES
 REGIONS
 
-# Solução:
+## Solução:
 Extração de dados realizada através de consultas SQL no banco FreeSQL, com exportação dos resultados em arquivos CSV para posterior análise em Python.
 
 Querys SQL utilizadas para extração de dados:
